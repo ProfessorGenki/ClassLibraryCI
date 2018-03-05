@@ -17,5 +17,15 @@ namespace ClassLibraryCI
         {
             return "New Jersey";
         }
+
+        public string GetEMail()
+        {
+            return "BigDaddy@gmail.com";
+        }
+
+        public int GetPhone()
+        {
+            return 13376969;
+        }
     }
 }
