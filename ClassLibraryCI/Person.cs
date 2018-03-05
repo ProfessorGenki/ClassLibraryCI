@@ -6,11 +6,16 @@ using System.Threading.Tasks;
 
 namespace ClassLibraryCI
 {
-    public class Class1
+    public class Person
     {
         public string GetName()
         {
             return "Chad";
+        }
+
+        public string GetAddress()
+        {
+            return "New Jersey";
         }
     }
 }
